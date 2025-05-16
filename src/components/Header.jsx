@@ -25,21 +25,10 @@ const Header = () => {
 
   return (
     <header className={`navbar ${scrolled ? 'shadow-lg' : ''}`}>
-      <div className="container">
+      <div className="container" style={{ position: 'relative' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
-          <a href="#home" className="navbar-brand">Vijay Dev</a>
+          <a href="#home" className="navbar-brand" style={{ marginRight: 'auto' }}>vijay.dev</a>
           
-          {/* Mobile menu button */}
-          <button 
-            className="btn btn-outline py-1 d-md-none"
-            onClick={toggleMenu}
-            style={{ display: 'flex', alignItems: 'center', padding: '0.5rem', background: 'transparent', border: 'none' }}
-          >
-            <span style={{ fontSize: '1.5rem', color: 'var(--light-text)' }}>
-              {menuOpen ? '✕' : '☰'}
-            </span>
-          </button>
-
           {/* Desktop Navigation */}
           <nav style={{ display: 'flex', gap: '1rem' }} className="d-none d-md-flex">
             <a href="#home" className="nav-link">Home</a>
@@ -48,6 +37,32 @@ const Header = () => {
             <a href="#projects" className="nav-link">Projects</a>
             <a href="#contact" className="nav-link">Contact</a>
           </nav>
+          
+          {/* Mobile menu button - fixed right position */}
+          <div className="d-md-none" style={{ 
+            display: 'flex', 
+            position: 'absolute',
+            right: '15px',
+            top: '50%',
+            transform: 'translateY(-50%)'
+          }}>
+            <button 
+              className="btn btn-outline py-1"
+              onClick={toggleMenu}
+              style={{ 
+                display: 'flex', 
+                alignItems: 'center', 
+                padding: '0.5rem', 
+                background: 'transparent', 
+                border: 'none',
+              }}
+              aria-label="Toggle menu"
+            >
+              <span style={{ fontSize: '1.5rem', color: 'var(--light-text)' }}>
+                {menuOpen ? '✕' : '☰'}
+              </span>
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}

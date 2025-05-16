@@ -27,7 +27,7 @@ function App() {
               <div className="col-12 col-lg-6">
                 <div className="hero-content">
                   <h1 className="mb-3">
-                    <span className="gradient-text">Vijay Dev</span>
+                    <span className="gradient-text">Vijay Prajapati</span>
                   </h1>
                   <p className="mb-4 text-muted">Web Developer & Designer</p>
                   
@@ -66,7 +66,7 @@ function App() {
                   <div className="profile-image-wrapper">
                     <img 
                       src="/img/perfil-icon.jpg" 
-                      alt="Vijay Dev" 
+                      alt="Vijay Prajapati" 
                       className="profile-image animated-profile"
                     />
                   </div>
