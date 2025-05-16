@@ -41,7 +41,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4 footer-column">
             <div className="footer-brand">
-              <h3>Vijay Dev</h3>
+              <h3>Vijay Prajapati</h3>
               <p className="footer-tagline">Engineering creative solutions</p>
             </div>
             <div className="footer-social">
@@ -89,15 +89,15 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <i className="fas fa-map-marker-alt me-2"></i>
-                <span>San Francisco, CA</span>
+                <span>Bangalore</span>
               </div>
               <div className="contact-item">
                 <i className="fas fa-envelope me-2"></i>
-                <span>hello@vijaydev.com</span>
+                <span>vkprajapati072@gmail.com</span>
               </div>
               <div className="contact-item">
                 <i className="fas fa-phone me-2"></i>
-                <span>+1 (555) 123-4567</span>
+                <span>07668055685</span>
               </div>
             </div>
           </div>
@@ -134,7 +134,7 @@ const Footer = () => {
               <i className="fab fa-react"></i> React
             </span>
           </div>
-          <p className="copyright">© {currentYear} Vijay Dev. All rights reserved.</p>
+          <p className="copyright">© {currentYear} Vijay Prajapati. All rights reserved.</p>
           <div className="footer-links">
             <a href="#" className="footer-link">Privacy Policy</a>
             <a href="#" className="footer-link">Terms of Service</a>
