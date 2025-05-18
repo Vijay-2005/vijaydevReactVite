@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Gradient that matches website theme -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" /> <!-- Primary -->
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" /> <!-- Secondary -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Modern shape with rounded corners -->
+  <rect x="56" y="56" width="400" height="400" rx="80" fill="url(#logoGradient)" />
+  
+  <!-- Stylized "V" letter -->
+  <path d="M156 156L256 356L356 156" stroke="white" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Modern tech element suggesting code/development -->
+  <path d="M176 356L156 336L176 316" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M336 356L356 336L336 316" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

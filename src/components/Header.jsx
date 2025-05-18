@@ -23,11 +23,13 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
-  return (
-    <header className={`navbar ${scrolled ? 'shadow-lg' : ''}`}>
+  return (    <header className={`navbar ${scrolled ? 'shadow-lg' : ''}`}>
       <div className="container" style={{ position: 'relative' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
-          <a href="#home" className="navbar-brand" style={{ marginRight: 'auto' }}>vijay.dev</a>
+          <a href="#home" className="navbar-brand" style={{ marginRight: 'auto', display: 'flex', alignItems: 'center' }}>
+            <img src="/img/logo.svg" alt="Vijay's Logo" style={{ height: '32px', marginRight: '10px' }} />
+            <span>vijay.dev</span>
+          </a>
           
           {/* Desktop Navigation */}
           <nav style={{ display: 'flex', gap: '1rem' }} className="d-none d-md-flex">

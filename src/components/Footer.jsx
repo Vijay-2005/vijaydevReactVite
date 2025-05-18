@@ -45,19 +45,19 @@ const Footer = () => {
               <p className="footer-tagline">Engineering creative solutions</p>
             </div>
             <div className="footer-social">
-              <a href="#" className="social-icon" aria-label="GitHub">
+              <a href="https://github.com/Vijay-2005" className="social-icon" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="#" className="social-icon" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/vijayk360/" className="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="#" className="social-icon" aria-label="Twitter">
+              <a href="https://x.com/vijayk_360" className="social-icon" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#" className="social-icon" aria-label="Email">
+              <a href="mailto:vkprajapati072@gmail.com" className="social-icon" aria-label="Email">
                 <i className="fas fa-envelope"></i>
               </a>
-              <a href="#" className="social-icon" aria-label="Instagram">
+              <a href="https://www.instagram.com" className="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
@@ -145,4 +145,4 @@ const Footer = () => {
   );
 };
 
-export default Footer; 
+export default Footer;
