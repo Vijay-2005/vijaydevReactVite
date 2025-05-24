@@ -127,24 +127,6 @@ function App() {
               <div className="col-4 mb-5" style={{ paddingLeft: '20px', paddingRight: '20px' }}>
                 <div className="skill-card" style={{ margin: '0 15px' }}>
                   <div className="skill-icon">
-                    <i className="fas fa-mobile-alt"></i>
-                  </div>
-                  <h3 className="skill-title">App Development</h3>
-                  <p className="skill-description">
-                    Building responsive, cross-platform mobile applications with modern frameworks and native features.
-                  </p>
-                  <div className="skill-tags">
-                    <span className="skill-tag">React Native</span>
-                    <span className="skill-tag">Flutter</span>
-                    <span className="skill-tag">Swift</span>
-                    <span className="skill-tag">Android</span>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="col-4 mb-5" style={{ paddingLeft: '20px', paddingRight: '20px' }}>
-                <div className="skill-card" style={{ margin: '0 15px' }}>
-                  <div className="skill-icon">
                     <i className="fas fa-code"></i>
                   </div>
                   <h3 className="skill-title">Web Development</h3>
@@ -197,24 +179,6 @@ function App() {
                 </div>
               </div>
               
-              <div className="col-4 mb-5" style={{ paddingLeft: '20px', paddingRight: '20px' }}>
-                <div className="skill-card" style={{ margin: '0 15px' }}>
-                  <div className="skill-icon">
-                    <i className="fas fa-microchip"></i>
-                  </div>
-                  <h3 className="skill-title">MCP</h3>
-                  <p className="skill-description">
-                    Implementing Multi-Chain Protocol solutions for decentralized applications and blockchain interoperability.
-                  </p>
-                  <div className="skill-tags">
-                    <span className="skill-tag">Cross-chain</span>
-                    <span className="skill-tag">Smart Contracts</span>
-                    <span className="skill-tag">Blockchain</span>
-                    <span className="skill-tag">Web3</span>
-                  </div>
-                </div>
-              </div>
-              
               {/* Row 3 */}
               <div className="col-4 mb-5" style={{ paddingLeft: '20px', paddingRight: '20px' }}>
                 <div className="skill-card" style={{ margin: '0 15px' }}>
@@ -226,10 +190,10 @@ function App() {
                     Creating robust, scalable server-side solutions with focus on performance and reliability.
                   </p>
                   <div className="skill-tags">
-                    <span className="skill-tag">Node.js</span>
-                    <span className="skill-tag">Express</span>
-                    <span className="skill-tag">Python</span>
+                    <span className="skill-tag">Spring Boot</span>
+                    <span className="skill-tag">Java</span>
                     <span className="skill-tag">Microservices</span>
+                    <span className="skill-tag">REST APIs</span>
                   </div>
                 </div>
               </div>
@@ -252,23 +216,6 @@ function App() {
                 </div>
               </div>
               
-              <div className="col-4 mb-5" style={{ paddingLeft: '20px', paddingRight: '20px' }}>
-                <div className="skill-card" style={{ margin: '0 15px' }}>
-                  <div className="skill-icon">
-                    <i className="fas fa-cogs"></i>
-                  </div>
-                  <h3 className="skill-title">DevOps</h3>
-                  <p className="skill-description">
-                    Implementing CI/CD pipelines and infrastructure automation for seamless development and deployment.
-                  </p>
-                  <div className="skill-tags">
-                    <span className="skill-tag">Docker</span>
-                    <span className="skill-tag">Kubernetes</span>
-                    <span className="skill-tag">AWS</span>
-                    <span className="skill-tag">CI/CD</span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>
