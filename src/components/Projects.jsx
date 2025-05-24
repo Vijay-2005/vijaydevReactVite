@@ -10,31 +10,31 @@ const projects = [
   },
   {
     title: 'AI Powered Grocery App',
-    description: 'Smart grocery shopping platform that uses AI to recommend products based on preferences and shopping history.',
+    description: 'Revolutionary grocery shopping platform that allows adding multiple items with a single prompt, powered by advanced AI.',
     link: 'https://www.fresh-cart.live/',
     icon: 'fas fa-shopping-basket',
-    tags: ['React', 'TensorFlow', 'Node.js']
+    tags: ['React', 'AI/ML', 'Node.js']
   },
   {
     title: 'Sonic Wave',
-    description: 'Music streaming platform with dynamic audio visualization and personalized playlists.',
+    description: 'E-commerce platform specializing in music accessories, offering a wide range of instruments and audio equipment.',
     link: 'https://sonic-waaaavee.vercel.app/',
-    icon: 'fas fa-music',
-    tags: ['React', 'Web Audio API', 'Firebase']
+    icon: 'fas fa-guitar',
+    tags: ['React', 'MongoDB', 'Express']
   },
   {
-    title: 'Todo App',
-    description: 'Feature-rich task management application with categories, reminders, and progress tracking.',
-    link: 'https://vercel.com/vijay-2005s-projects/todo-app-react',
-    icon: 'fas fa-tasks',
-    tags: ['React', 'Redux', 'LocalStorage']
+    title: 'Silicon Synapse',
+    description: 'Platform providing access to state-of-the-art AI agents, enabling advanced AI interactions and automation.',
+    link: 'https://www.siliconsynapse.in/',
+    icon: 'fas fa-brain',
+    tags: ['React', 'AI/ML', 'API Integration']
   },
   {
     title: 'Community Nexus',
-    description: 'Social networking app for communities built with Kotlin, featuring real-time messaging and event planning.',
+    description: 'Innovative platform connecting underprivileged communities with government schemes and benefits, bridging the accessibility gap.',
     link: 'https://github.com/Vijay-2005/Comnex',
-    icon: 'fas fa-users',
-    tags: ['Kotlin', 'Firebase', 'Android SDK']
+    icon: 'fas fa-hands-helping',
+    tags: ['React', 'Spring Boot', 'MongoDB']
   },
   {
     title: 'Mobile Wallet',
