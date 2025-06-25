@@ -257,9 +257,9 @@ function App() {
                     <h3 className="timeline-title">Alignerr</h3>
                     <span className="timeline-period">2025</span>
                   </div>
-                  <h4 className="timeline-subtitle">ML Data Creation Specialist</h4>
+                  <h4 className="timeline-subtitle">LLM Trainer and Data annotation</h4>
                   <p className="timeline-description">
-                    Creating and curating high-quality data for machine learning models, focusing on data annotation and validation to enhance model performance.
+                   Worked on different projects of Data Annotation and LLM response evaluation.
                   </p>
                   <div className="timeline-tags">
                     <span className="timeline-tag">ML Data</span>
@@ -281,12 +281,12 @@ function App() {
                   </div>
                   <h4 className="timeline-subtitle">LLM Model Trainer</h4>
                   <p className="timeline-description">
-                    Trained and fine-tuned Large Language Models for various applications, optimizing model performance through data curation and parameter tuning.
+                        Worked on different projects of LLM model response resoning and LLM response evaluation.
                   </p>
                   <div className="timeline-tags">
                     <span className="timeline-tag">LLM</span>
                     <span className="timeline-tag">Model Training</span>
-                    <span className="timeline-tag">Fine-tuning</span>
+                    {/* <span className="timeline-tag">Fine-tuning</span> */}
                   </div>
                 </div>
               </div>
@@ -321,7 +321,7 @@ function App() {
                   </div>
                   <h4 className="timeline-subtitle">Open Source Contributor | Remote</h4>
                   <p className="timeline-description">
-                    Contributed to an open-source reference implementation for digital wallet and payment capabilities built using the Mifos platform. Designed secure, user-friendly features for seamless financial transactions and digital inclusion. Ensured interoperability with various financial systems to enhance user accessibility and functionality.
+                    Contributed to an open-source reference implementation for digital wallet and payment capabilities built using the Mifos platform. Written unit tests for the features.
                   </p>
                   <div className="timeline-tags">
                     <span className="timeline-tag">Open Source</span>
@@ -436,10 +436,9 @@ function App() {
                       <i className="fas fa-project-diagram"></i>
                     </div>
                     <span className="tech-name">Maven</span>
-                  </div>
-                  <div className="tech-item">
+                  </div>                  <div className="tech-item">
                     <div className="tech-icon">
-                      <i className="fas fa-diagram-project"></i>
+                      <i className="fas fa-network-wired"></i>
                     </div>
                     <span className="tech-name">LangGraph</span>
                   </div>
