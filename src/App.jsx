@@ -29,7 +29,7 @@ function App() {
                   <h1 className="mb-3">
                     <span className="gradient-text">Vijay Prajapati</span>
                   </h1>
-                  <p className="mb-4 text-muted">Web Developer & Designer</p>
+                  <p className="mb-4 text-muted">Web Developer & AI Integration Engineer</p>
                   
                   <div className="tagline mb-4">
                     <h2 className="highlight-text">Tell me the problem,</h2>
@@ -229,13 +229,33 @@ function App() {
             </div>
             
             <div className="timeline">
+                           {/* Hyperbots Inc. */}
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <div className="timeline-content">
+                  <div className="timeline-header">
+                    <h3 className="timeline-title">Hyperbots Inc.</h3>
+                    <span className="timeline-period">Current</span>
+                    
+                  </div>
+                  <h4 className="timeline-subtitle">Applied ML Intern</h4>
+                  <p className="timeline-description">
+                    Developed and deployed AI agents using MCP (Model Context Protocol) architecture. Focused on creating intelligent, autonomous systems that interact effectively with users and other AI systems.
+                  </p>
+                  <div className="timeline-tags">
+                    <span className="timeline-tag">AI Agents</span>
+                    <span className="timeline-tag">MCP Development</span>
+                    <span className="timeline-tag">Applied ML</span>
+                  </div>
+                </div>
+              </div>
               {/* Alignerr */}
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <div className="timeline-header">
                     <h3 className="timeline-title">Alignerr</h3>
-                    <span className="timeline-period">Current</span>
+                    <span className="timeline-period">2025</span>
                   </div>
                   <h4 className="timeline-subtitle">ML Data Creation Specialist</h4>
                   <p className="timeline-description">
@@ -248,6 +268,8 @@ function App() {
                   </div>
                 </div>
               </div>
+              
+ 
               
               {/* Outlier */}
               <div className="timeline-item">
@@ -414,6 +436,12 @@ function App() {
                       <i className="fas fa-project-diagram"></i>
                     </div>
                     <span className="tech-name">Maven</span>
+                  </div>
+                  <div className="tech-item">
+                    <div className="tech-icon">
+                      <i className="fas fa-diagram-project"></i>
+                    </div>
+                    <span className="tech-name">LangGraph</span>
                   </div>
                 </div>
               </div>
