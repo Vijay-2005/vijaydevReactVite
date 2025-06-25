@@ -22,16 +22,15 @@ function App() {
         {/* Hero Section */}
         <section id="home" className="hero-section">
           <div className="container">
-            <div className="row">
-              {/* Left side with tagline and buttons */}
-              <div className="col-12 col-lg-6">
+            <div className="row">              {/* Left side with tagline and buttons */}
+              <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
                 <div className="hero-content">
                   <h1 className="mb-3">
                     <span className="gradient-text">Vijay Prajapati</span>
                   </h1>
                   <p className="mb-4 text-muted">Web Developer & AI Integration Engineer</p>
                   
-                  <div className="tagline mb-4">
+                  <div className="tagline mb-4 mx-auto mx-lg-0">
                     <h2 className="highlight-text">Tell me the problem,</h2>
                     <h2 className="mb-3 typewriter">I'll engineer the solution.</h2>
                   </div>
