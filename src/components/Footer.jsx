@@ -28,7 +28,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className={`footer ${isVisible ? 'visible' : ''}`}>
+    <footer id="contact" className={`footer ${isVisible ? 'visible' : ''}`}>
       <div className="footer-gradient-sphere-1"></div>
       <div className="footer-gradient-sphere-2"></div>
       <div className="footer-gradient-sphere-3"></div>
