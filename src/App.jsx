@@ -297,7 +297,7 @@ function App() {
                 <div className="timeline-content">
                   <div className="timeline-header">
                     <h3 className="timeline-title">Samsung Research</h3>
-                    <span className="timeline-period">August 2025 - Present</span>
+                    <span className="timeline-period">Jul 2024 - Feb 2025</span>
                   </div>
                   <h4 className="timeline-subtitle">Research Intern | Bangalore, Karnataka</h4>
                   <p className="timeline-description">
