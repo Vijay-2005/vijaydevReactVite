@@ -1,33 +1,27 @@
 import React, { useState } from 'react';
 
 const projects = [
-  {
-    title: 'Wedding Card Shops',
-    description: 'An elegant e-commerce platform for wedding card designs with customization options.',
-    link: 'https://wedding-cards-five.vercel.app/',
-    icon: 'fas fa-store',
-    tags: ['React', 'NextJS', 'MongoDB']
-  },
+ 
   {
     title: 'AI Powered Grocery App',
     description: 'Revolutionary grocery shopping platform that allows adding multiple items with a single prompt, powered by advanced AI.',
     link: 'https://www.fresh-cart.live/',
     icon: 'fas fa-shopping-basket',
-    tags: ['React', 'AI/ML', 'Node.js']
+    tags: ['React', 'AI/ML', 'MySql']
   },
   {
     title: 'Sonic Wave',
-    description: 'E-commerce platform specializing in music accessories, offering a wide range of instruments and audio equipment.',
+    description: 'E-commerce platform specializing in music accessories, offering a wide range of instruments and audio devices.',
     link: 'https://sonic-waaaavee.vercel.app/',
     icon: 'fas fa-guitar',
-    tags: ['React', 'MongoDB', 'Express']
+    tags: ['React',  'Tailwind CSS']
   },
   {
     title: 'Silicon Synapse',
     description: 'Platform providing access to state-of-the-art AI agents, enabling advanced AI interactions and automation.',
     link: 'https://www.siliconsynapse.in/',
     icon: 'fas fa-brain',
-    tags: ['React', 'AI/ML', 'API Integration']
+    tags: ['React', 'AI/ML', 'Langgraph']
   },
   {
     title: 'Community Nexus',
@@ -42,6 +36,13 @@ const projects = [
     link: 'https://github.com/Vijay-2005/mobile-wallet',
     icon: 'fas fa-wallet',
     tags: ['Java', 'Spring Boot', 'REST API']
+  },
+   {
+    title: 'Wedding Card Shops',
+    description: 'An elegant e-commerce platform for wedding card designs with customization options.',
+    link: 'https://wedding-cards-five.vercel.app/',
+    icon: 'fas fa-store',
+    tags: ['React', 'NextJS', 'Tailwind CSS']
   }
 ];
 
