@@ -238,7 +238,7 @@ function App() {
                     <span className="timeline-period">Current</span>
                     
                   </div>
-                  <h4 className="timeline-subtitle">Applied ML Intern</h4>
+                  <h4 className="timeline-subtitle">Applied ML Intern (Full-Time, On-Site)</h4>
                   <p className="timeline-description">
                     Developed and deployed AI agents using MCP (Model Context Protocol) architecture. Focused on creating intelligent, autonomous systems that interact effectively with users and other AI systems.
                   </p>
@@ -257,7 +257,7 @@ function App() {
                     <h3 className="timeline-title">Alignerr</h3>
                     <span className="timeline-period">2025</span>
                   </div>
-                  <h4 className="timeline-subtitle">LLM Trainer and Data annotation</h4>
+                  <h4 className="timeline-subtitle">LLM Trainer and Data annotation | Remote</h4>
                   <p className="timeline-description">
                    Worked on different projects of Data Annotation and LLM response evaluation.
                   </p>
@@ -277,9 +277,9 @@ function App() {
                 <div className="timeline-content">
                   <div className="timeline-header">
                     <h3 className="timeline-title">Outlier</h3>
-                    <span className="timeline-period">2023</span>
+                    <span className="timeline-period">2024</span>
                   </div>
-                  <h4 className="timeline-subtitle">LLM Model Trainer</h4>
+                  <h4 className="timeline-subtitle">LLM Model Trainer | Remote</h4>
                   <p className="timeline-description">
                         Worked on different projects of LLM model response resoning and LLM response evaluation.
                   </p>
