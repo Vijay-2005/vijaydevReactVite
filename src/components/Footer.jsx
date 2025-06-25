@@ -57,9 +57,7 @@ const Footer = () => {
               <a href="mailto:vkprajapati072@gmail.com" className="social-icon" aria-label="Email">
                 <i className="fas fa-envelope"></i>
               </a>
-              <a href="https://www.instagram.com" className="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-instagram"></i>
-              </a>
+              
             </div>
           </div>
           

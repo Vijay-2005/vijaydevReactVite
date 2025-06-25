@@ -29,7 +29,7 @@ function App() {
                   <h1 className="mb-3">
                     <span className="gradient-text">Vijay Prajapati</span>
                   </h1>
-                  <p className="mb-4 text-muted">Web Developer & Designer</p>
+                  <p className="mb-4 text-muted">Web Developer & AI Integration Engineer</p>
                   
                   <div className="tagline mb-4">
                     <h2 className="highlight-text">Tell me the problem,</h2>
@@ -229,17 +229,37 @@ function App() {
             </div>
             
             <div className="timeline">
+                           {/* Hyperbots Inc. */}
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <div className="timeline-content">
+                  <div className="timeline-header">
+                    <h3 className="timeline-title">Hyperbots Inc.</h3>
+                    <span className="timeline-period">Current</span>
+                    
+                  </div>
+                  <h4 className="timeline-subtitle">Applied ML Intern</h4>
+                  <p className="timeline-description">
+                    Developed and deployed AI agents using MCP (Model Context Protocol) architecture. Focused on creating intelligent, autonomous systems that interact effectively with users and other AI systems.
+                  </p>
+                  <div className="timeline-tags">
+                    <span className="timeline-tag">AI Agents</span>
+                    <span className="timeline-tag">MCP Development</span>
+                    <span className="timeline-tag">Applied ML</span>
+                  </div>
+                </div>
+              </div>
               {/* Alignerr */}
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <div className="timeline-header">
                     <h3 className="timeline-title">Alignerr</h3>
-                    <span className="timeline-period">Current</span>
+                    <span className="timeline-period">2025</span>
                   </div>
-                  <h4 className="timeline-subtitle">ML Data Creation Specialist</h4>
+                  <h4 className="timeline-subtitle">LLM Trainer and Data annotation</h4>
                   <p className="timeline-description">
-                    Creating and curating high-quality data for machine learning models, focusing on data annotation and validation to enhance model performance.
+                   Worked on different projects of Data Annotation and LLM response evaluation.
                   </p>
                   <div className="timeline-tags">
                     <span className="timeline-tag">ML Data</span>
@@ -248,6 +268,8 @@ function App() {
                   </div>
                 </div>
               </div>
+              
+ 
               
               {/* Outlier */}
               <div className="timeline-item">
@@ -259,12 +281,12 @@ function App() {
                   </div>
                   <h4 className="timeline-subtitle">LLM Model Trainer</h4>
                   <p className="timeline-description">
-                    Trained and fine-tuned Large Language Models for various applications, optimizing model performance through data curation and parameter tuning.
+                        Worked on different projects of LLM model response resoning and LLM response evaluation.
                   </p>
                   <div className="timeline-tags">
                     <span className="timeline-tag">LLM</span>
                     <span className="timeline-tag">Model Training</span>
-                    <span className="timeline-tag">Fine-tuning</span>
+                    {/* <span className="timeline-tag">Fine-tuning</span> */}
                   </div>
                 </div>
               </div>
@@ -299,7 +321,7 @@ function App() {
                   </div>
                   <h4 className="timeline-subtitle">Open Source Contributor | Remote</h4>
                   <p className="timeline-description">
-                    Contributed to an open-source reference implementation for digital wallet and payment capabilities built using the Mifos platform. Designed secure, user-friendly features for seamless financial transactions and digital inclusion. Ensured interoperability with various financial systems to enhance user accessibility and functionality.
+                    Contributed to an open-source reference implementation for digital wallet and payment capabilities built using the Mifos platform. Written unit tests for the features.
                   </p>
                   <div className="timeline-tags">
                     <span className="timeline-tag">Open Source</span>
@@ -414,6 +436,11 @@ function App() {
                       <i className="fas fa-project-diagram"></i>
                     </div>
                     <span className="tech-name">Maven</span>
+                  </div>                  <div className="tech-item">
+                    <div className="tech-icon">
+                      <i className="fas fa-network-wired"></i>
+                    </div>
+                    <span className="tech-name">LangGraph</span>
                   </div>
                 </div>
               </div>
