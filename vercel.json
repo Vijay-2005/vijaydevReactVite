@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://vijayp.vercel.app/home",
+      "permanent": true
+    }
+  ]
+}
