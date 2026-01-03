@@ -1,9 +1,11 @@
 {
-  "redirects": [
+  "routes": [
     {
-      "source": "/:path*",
-      "destination": "https://vijayp.vercel.app",
-      "permanent": true
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://vijayp.vercel.app/home"
+      }
     }
   ]
 }
